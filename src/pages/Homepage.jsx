@@ -5,8 +5,8 @@ function Homepage() {
   return (
     <div>
       <PageNav />
-      <h1>My Homepage</h1>
-      <Link to="/pricing">Pricing</Link>
+      <h1 className="test">My Homepage</h1>
+      <Link to="/app">Go to the App</Link>
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.nav {
+  background-color: black;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+/* 
+another example of global class inside a local element
+
+.nav :global(.active) {
+  background-color: blue;
+} */
+
+/* global class not really helpful and useful but 
+this is how you can use it */
+:global(.test) {
+  background-color: teal;
+}
