@@ -58,14 +58,14 @@ input:focus {
 .cta:link,
 .cta:visited {
   display: inline-block;
-  background-color: var(--color-brand--2);
-  color: var(--color-dark--1);
+  background-color: #52b69a;
+  color: #011627;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
   padding: 1rem 3rem;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 /*

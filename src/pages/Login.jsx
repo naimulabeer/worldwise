@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Login.module.css";
+import PageNav from "../components/PageNav";
 
 function Login() {
   // PRE-FILL FOR dev purposes
@@ -8,6 +9,7 @@ function Login() {
 
   return (
     <main className={styles.login}>
+      <PageNav />
       <form className={styles.form}>
         <div className={styles.row}>
           <label htmlFor="email">Email address</label>
@@ -29,7 +31,7 @@ function Login() {
           />
         </div>
 
-        <div className={styles.button}>
+        <div>
           <button>Login</button>
         </div>
       </form>

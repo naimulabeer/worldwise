@@ -1,27 +1,35 @@
 .nav {
-  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+
+  align-items: center;
+  gap: 4rem;
 }
 
-.nav a {
+.nav a:link,
+.nav a:visited {
   text-decoration: none;
-  color: antiquewhite;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-/* 
-another example of global class inside a local element
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--color-brand--2);
+}
 
-.nav :global(.active) {
-  background-color: blue;
-} */
-
-/* global class not really helpful and useful but 
-this is how you can use it */
-:global(.test) {
-  background-color: teal;
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
 }
