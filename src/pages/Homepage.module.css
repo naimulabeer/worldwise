@@ -32,3 +32,14 @@
   color: #faedcd;
   margin-bottom: 2.5rem;
 }
+
+@media screen and (max-width: 576px) {
+  .homepage section {
+    margin: 2px;
+    padding: 2px;
+  }
+  .homepage h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+}
