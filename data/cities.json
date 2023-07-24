@@ -37,28 +37,28 @@
       "id": 98443197
     },
     {
-      "cityName": "Porto",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "cityName": "Zaragoza",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-07-04T14:15:00.000Z",
+      "notes": "bad place",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "41.65649719441145",
+        "lng": "-0.8459472656250001"
       },
-      "id": 739353
+      "id": 98443199
     },
     {
       "cityName": "Barcelona",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "date": "2023-07-23T14:22:17.000Z",
+      "notes": "Horrible place to go",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "41.32732632036624",
+        "lng": "2.1368408203125004"
       },
-      "id": 17805363
+      "id": 98443200
     }
   ]
 }
